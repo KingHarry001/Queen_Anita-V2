@@ -6,20 +6,20 @@ global.audio = "";
 global.video = "";
 global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
-global.email = "davidcyril209@gmail.com";
-global.location = "Abuja, Nigeria";
+global.email = "kingharrisonariwodo@gmail.com";
+global.location = "Nigeria";
 global.mongodb = process.env.MONGODB_URI || "";
 global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
-global.github = process.env.GITHUB || "https://github.com/DeeCeeXxx/Queen_Anita-V2";
-global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaeRru3ADTOEKPCPom0L";
-global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaeRru3ADTOEKPCPom0L";
+global.github = process.env.GITHUB || ".";
+global.gurl = process.env.GURL || ".";
+global.website = process.env.GURL || ".";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/17c8ba84a7761eed633f6.jpg";
-global.devs = "https://t.me/deecee_x";
+global.devs = "https://t.me/EnigmaDeKing";
 global.sudo = process.env.SUDO || "";
-global.owner = process.env.OWNER_NUMBER || "";
+global.owner = process.env.OWNER_NUMBER || "09038163213";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -32,7 +32,7 @@ global.waPresence = process.env.WAPRESENCE || "available";
 global.readcmds = process.env.READ_COMMAND || "false";
 global.readmessage = process.env.READ_MESSAGE || "false";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
-global.read_status = process.env.AUTO_READ_STATUS || "true";
+global.read_status = process.env.AUTO_READ_STATUS || "false";
 global.save_status = process.env.AUTO_SAVE_STATUS || "false";
 global.save_status_from = process.env.SAVE_STATUS_FROM || "";
 global.read_status_from = process.env.READ_STATUS_FROM || "";
@@ -52,7 +52,7 @@ module.exports = {
   author: process.env.PACK_AUTHER || "QUEEN_ANITA-V2",
   packname: process.env.PACK_NAME || "A N I T A",
   botname: process.env.BOT_NAME || "QUEEN_ANITA-V2",
-  ownername: process.env.OWNER_NAME || "David Cyril",
+  ownername: process.env.OWNER_NAME || "King",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
